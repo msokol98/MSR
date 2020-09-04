@@ -4,7 +4,6 @@ import java.util.stream.Collectors;
 
 import javax.persistence.EntityManager;
 
-import io.sokol.msr.entity.ServiceRequest;
 import io.sokol.msr.projection.PersonProjection;
 import io.sokol.msr.projection.ServiceRequestProjection;
 import org.springframework.beans.factory.annotation.Autowired;

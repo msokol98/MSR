@@ -31,7 +31,7 @@ const Services = () => {
         <div className="container">
 
             <div className="centered">
-                <h3 className="title">Our Services</h3>
+                <h3 className="title has-text-weight-light">Our Services</h3>
             </div>
 
             <div className="tabs is-centered is-medium is-boxed">

@@ -27,6 +27,7 @@ public class FakeDataCreator {
             for(int j = 0; j < 3; j++) {
                 String firstName = faker.name().firstName();
                 String lastName = faker.name().lastName();
+                String userName = faker.name().username();
                 String streetAddress = faker.address().streetAddress();
                 String email = faker.internet().emailAddress();
                 String password = faker.internet().password();
@@ -44,6 +45,7 @@ public class FakeDataCreator {
                 p.setFirstName(firstName);
                 p.setLastName(lastName);
                 p.setAddress(streetAddress);
+                p.setUserName(userName);
                 p.setEmail(email);
                 p.setPassword(password);
                 p.setPhoneNumber(phoneNumber);

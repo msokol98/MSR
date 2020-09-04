@@ -29,7 +29,7 @@ const home = () => {
         <Services />
       </section>
 
-      <section className="section">
+      <section className="section has-background-light">
         <div className="container">
           <div className="content">
 
